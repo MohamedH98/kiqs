@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kiqs</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      
+    <div class="container-fluid">
+        <section id="title" class="main-sections">
+      <div class="nav-section">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a href="" id="navbar-brand" class="navbar-brand"
+            ><i class="fas fa-bolt icons"></i
+                > kiqs</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggler"
+            aria-controls="navbarToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#about-section" class="nav-link">About us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#latest-releases" class="nav-link">Latest Releases</a>
+              </li>
+              <li class="nav-item">
+                <a href="#subscription-section" class="nav-link">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+        <div class="row">
+          <div class="col-lg-6 intro-text">
+            <h1>Get the latest releases straight to your door.</h1>
+            <div class="d-flex justify-content-center text-center">
+              <button
+                class="btn btn-lg key-buttons subscribe-title"
+                type="button"
+              >
+                Subscribe
+              </button>
+              <button
+                id="download-title"
+                class="btn btn-outline-dark btn-lg key-buttons"
+                type="button"
+              >
+                <i class="fab fa-apple"></i>
+                Download
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="title-image"
+              src="images/nike-title.png"
+              alt="nike shoe"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="about-section" class="main-sections">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="section-heading mb-5 text-center">Who are we?</h3>
+            <p class="about-text mb-4">
+              We are the UK's first sneaker subscription service, bringing our
+              customers the latest kiqs from all over the world straight to
+              their door with a click of a button.
+            </p>
+            <div class="advantages-holder">
+            <div class="advantages-container d-flex justify-content-flex-start">
+              <i class="fas fa-check-circle icons mr-4"></i>
+              <div class="advantages">
+                <h6>Time saver</h6>
+                <p>No fuss, secure your shoe and it's yours!</p>
+              </div>
+            </div>
+            <div class="advantages-container d-flex justify-content-flex-start">
+              <i class="fas fa-clock icons mr-4"></i>
+              <div class="advantages">
+                <h6>No waiting</h6>
+                <p>Next day delivery on all of our kiqs.</p>
+              </div>
+            </div>
+            <div class="advantages-container d-flex justify-content-flex-start">
+              <i class="fas fa-pound-sign icons mr-4"></i>
+              <div class="advantages">
+                <h6>Value for money</h6>
+                <p>
+                  We work hard to give you access to the latest kicks, at a the
+                  lowest price.
+                </p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class="about-shoe rounded my-5 mx-auto d-block" src="images/97s.jpg" alt="nike 97s" />
+          </div>
+        </div>
+        <div class="d-flex justify-content-center text-center">
+          <button
+            class="btn btn-lg key-buttons subscribe-title"
+            type="button"
+          >
+            Subscribe
+          </button>
+        </div>
+      </section>
+
+      <section id="latest-releases" class="main-sections">
+        <h3 class="section-heading mb-5 text-center">Latest Releases</h3>
+        <div class="row justify-content-center">
+          <div class="col-md-4 col-sm-5 col-10 new-shoes">
+            <div class="card-body my-3">
+              <img src="images/j's.jpg" class="new-shoes-img" alt="Air Jordan 5" />
+              <ul class="list-unstyled">
+                <li>Air Jordan 5</li>
+              </ul>
+              <h6>Toro Bravo</h6>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-5 col-10 new-shoes">
+            <div class="card-body my-3">
+              <img src="images/air.jpg" class="new-shoes-img" alt="Rayguns" />
+              <ul class="list-unstyled">
+                <li>Air More Uptempo</li>
+              </ul>
+              <h6>Rayguns</h6>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-5 col-10 new-shoes">
+            <div class="card-body my-3">
+              <img src="images/airtuned.jpg" class="new-shoes-img" alt="Dark Charcoal" />
+              <ul class="list-unstyled">
+                <li>Air Tuned Max</li>
+              </ul>
+              <h6>Dark Charcoal</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="subscription-section" class="main-sections">
+      <div class="container">
+        <h3 class="section-heading mb-5 text-center">Subscription Packages</h3>
+        <div class="card-deck mb-3 text-center">
+          <div class="card mb-4 shadow-sm sub-info">
+            <div class="card-header">
+              <h5 class="my-0">Bronze</h5>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title pricing-card-title">
+                £200 <small class="text-muted">/ mo</small>
+              </h6>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>2 kiqs a month</li>
+                <li>Free next day delivery</li>
+                <li>Free socks with each order</li>
+              </ul>
+              <button
+                type="button"
+                class="btn btn-sm btn-block btn-outline-primary"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-sm sub-info">
+            <div class="card-header">
+              <h5 class="my-0">Silver</h5>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title pricing-card-title">
+                £500 <small class="text-muted">/ mo</small>
+              </h6>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>5 kiqs a month</li>
+                <li>Free next day delivery</li>
+                <li>Gift bag with each kiq</li>
+              </ul>
+              <button
+                type="button"
+                class="btn btn-sm btn-block btn-outline-primary"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-sm sub-info">
+            <div class="card-header">
+              <h5 class="my-0">Gold</h5>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title pricing-card-title">
+                £999 <small class="text-muted">/ mo</small>
+              </h6>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>15 kiqs a month</li>
+                <li>Free next day delivery</li>
+                <li>Early access</li>
+              </ul>
+              <button
+                type="button"
+                class="btn btn-sm btn-block btn-outline-primary"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <footer id="footer" class="bg-dark text-center text-white footer">
+        <div class="container p-4">
+          <div class="mb-4">    
+            <a class="btn btn-outline-light btn-floating m-1" href="mailto:mohamedahassan188@gmail.com" role="button"
+            ><i class="fas fa-envelope"></i
+          ></a>  
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/mohamed-hassan-898399150/" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/MohamedH98" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/momito8_" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/momito8_" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+
+              </div>
+                  </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
