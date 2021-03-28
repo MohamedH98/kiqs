@@ -93,11 +93,12 @@ h1 {
 
 .about-text {
   text-align: center;
+  padding-bottom: 10%;
 }
 .about-shoe {
   width: 70%;
   max-width: 400px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .new-shoes {
   max-width: 300px;
